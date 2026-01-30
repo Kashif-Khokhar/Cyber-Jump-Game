@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cyber-Jump | VIP Arcade</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <div class="hud">
+            <div class="stat">SCORE: <span id="score">0</span></div>
+            <div class="stat">BEST: <span id="highScore">0</span></div>
+        </div>
+        
+        <canvas id="jumpCanvas" width="400" height="600"></canvas>
+
+        <div class="overlay" id="overlay">
+            <h2>CYBER-JUMP</h2>
+            <p>Use Left/Right Arrows to Move</p>
+            <button onclick="startGame()">Initiate Jump</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
